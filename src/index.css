@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+.wrapper {
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+  background-color:rgb(156, 74, 233)
+}
+#quote-box {
+	width: 450px;
+	background-color: rgb(250, 163, 250);
+	height: auto;
+	padding: 40px 50px;
+	border-radius: 10px;
+}
+#quote-box .quote-text {
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.75em;
+	padding: 15px;
+}
+#quote-box .quote-author {
+	padding-top: 20px;
+	font-size: 1em;
+	text-align: right;
+	padding-right: 10px;
+}
+#quote-box .buttons {
+	display: flex;
+	padding: 10px;
+}
+
+#quote-box .buttons .button {
+	text-decoration: none;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	background-color: rgb(226, 78, 182);
+	outline: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.85em;
+	padding: 10px 18px 10px 18px;
+	margin-top: 30px;
+	opacity: 1;
+	cursor: pointer;
+}
+
+#quote-box #new-quote {
+	margin-right: auto
+}
